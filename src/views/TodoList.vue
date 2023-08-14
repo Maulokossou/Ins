@@ -14,7 +14,7 @@
                     </div>
                 </div>
             </div>
-            <img v-if="mode==='dark'" src="@/assets/night.jpeg" alt="image" />
+            <img v-if="mode==='dark'" src="@/assets/day.jpeg" alt="image" />
             <img v-else-if="mode==='sun'" src="@/assets/cat7.jpeg" alt="image"/>
         </header>
         <main>
